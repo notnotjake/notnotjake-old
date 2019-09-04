@@ -9,30 +9,28 @@ body	{
 /* ---- Header Section ---- */
 .header	{
 		background-color: #3C362F;
-		height: 90vw;
-		max-height: 115vh;
 		width: 100%;
 		z-index: 0;
-		-webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
-		clip-path: polygon(0 0, 100% 0%, 100% 90%, 50% 100%, 0 90%);
 		}
 .header img {
 		width: 100%
 		}		
 #logo 	{
 		width: 35%;
+		min-width: 200px;
 		max-width: 360px;
 		padding-top: 28px;
 		margin-left: auto;
 		margin-right: auto;
 		}
 	
-div.header_container {
+.header_container {
 		margin-left: auto;
 		margin-right: auto;
 		width: 86%;
 		max-width: 900px;
-		overflow: hidden;
+		padding-bottom: 90px;
+		overflow: auto;
 		position: relative;
 		}
 div.header_container img {
@@ -72,7 +70,13 @@ div.header_container img {
 		margin-top: -35px;
 		margin-left: 6%;
 		}
-
+.header_welle {
+		background-color: #3C362F;
+		height: 9vw;
+		z-index: 0;
+		-webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
+		clip-path: polygon(0 0, 100% 0%, 100% 90%, 50% 100%, 0 90%);
+		}
 
 
 
@@ -215,3 +219,18 @@ div.footer p {
 		padding-top: 200px;
 		color: #919191;
 }
+
+@media (max-width: 700px) {
+		.header {
+				max-height: none;
+				}
+		#header_fun {
+				width: 100%;
+				}
+		#header_comfy {
+				width: 100%;
+				}
+		#header_pretty {
+				width: 100%;
+				}
+		}
