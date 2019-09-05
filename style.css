@@ -70,23 +70,46 @@ div.header_container img {
 		margin-top: -35px;
 		margin-left: 6%;
 		}
-
-.header-details_container {
-		height: 9vw;
-		max-height: 100px;
+.header_coping {
+		height: 9vh;
+		max-height: 90px;
 		width: 100%;
-		position: absolute;
-		}
-.header_welle {
-		background-color: #3C362F;
-		height: 100%;
-		z-index: -2;
 		-webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
 		clip-path: polygon(0 0, 100% 0%, 100% 90%, 50% 100%, 0 90%);
+		background-color: #3C362F;
+		}
+.header-details_shim {
+		height: 9vh;
+		max-height: 90px;
+		width: 100%;
+		background-color: #486257;
+		position: absolute;
+		margin-top: -9vh;
+		z-index: -3;
 		}
 .details_coping {
-		background-color: #486200; /* #486257 */
-		height:100%;
+		height: 9vh;
+		max-height: 90px;
+		width: 100%;
+		-webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
+		clip-path: polygon(0 0, 100% 0%, 100% 90%, 50% 100%, 0 90%);
+		background-color: #486257;
+		}
+.testimonial_coping {
+		height: 9vh;
+		max-height: 90px;
+		width: 100%;
+		-webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
+		clip-path: polygon(0 0, 100% 0%, 100% 90%, 50% 100%, 0 90%);
+		background-color: #292F31;
+		}
+.details-testimonial_shim {
+		height: 9vh;
+		max-height: 90px;
+		width: 100%;
+		background-color: #292F31;
+		position: absolute;
+		margin-top: -9vh;
 		z-index: -5;
 		}
 
@@ -271,10 +294,20 @@ div.header_container img {
 				font-size: .8em;
 				}
 		#contact_container {
+				width: 90%;
 				padding-top: 20%;
 				}
 		.contact img {
 				padding-bottom:20%;
-				}		
+				}	
+		.header_coping {
+				height: 10vw;
+				}	
+		.details_coping {
+				height: 10vw;
+				}
+		.testimonial_coping {
+				height: 10vw;
+				}
 }
 		
