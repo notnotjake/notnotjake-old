@@ -270,5 +270,11 @@ div.header_container img {
 		.footer p {
 				font-size: .8em;
 				}
+		#contact_container {
+				padding-top: 20%;
+				}
+		.contact img {
+				padding-bottom:20%;
+				}		
 }
 		
