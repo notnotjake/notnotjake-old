@@ -75,7 +75,7 @@ div.header_container img {
 		max-height: 90px;
 		width: 100%;
 		-webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
-		clip-path: polygon(0 0, 100% 0%, 100% 90%, 50% 100%, 0 90%);
+		clip-path: polygon(0 0, 100% 0, 50% 100%);
 		background-color: #3C362F;
 		}
 .header-details_shim {
@@ -92,7 +92,7 @@ div.header_container img {
 		max-height: 90px;
 		width: 100%;
 		-webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
-		clip-path: polygon(0 0, 100% 0%, 100% 90%, 50% 100%, 0 90%);
+		clip-path: polygon(0 0, 100% 0, 50% 100%);
 		background-color: #486257;
 		}
 .testimonial_coping {
@@ -100,14 +100,14 @@ div.header_container img {
 		max-height: 90px;
 		width: 100%;
 		-webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
-		clip-path: polygon(0 0, 100% 0%, 100% 90%, 50% 100%, 0 90%);
+		clip-path: polygon(0 0, 100% 0, 50% 100%);
 		background-color: #292F31;
 		}
 .details-testimonial_shim {
 		height: 9vh;
 		max-height: 90px;
 		width: 100%;
-		background-color: #292F31;
+		background-color: #292F31	;
 		position: absolute;
 		margin-top: -9vh;
 		z-index: -5;
