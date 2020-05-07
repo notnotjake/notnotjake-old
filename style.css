@@ -78,11 +78,11 @@ div.header_container img {
 		clip-path: polygon(0 0, 100% 0, 50% 100%);
 		background-color: #3C362F;
 		}
-.header-details_shim {
+.header-cta_shim {
 		height: 9vh;
 		max-height: 90px;
 		width: 100%;
-		background-color: #486257;
+		background-color: #312C28;
 		position: absolute;
 		margin-top: -9vh;
 		z-index: -3;
@@ -112,7 +112,50 @@ div.header_container img {
 		margin-top: -9vh;
 		z-index: -5;
 		}
-
+/* ---- Call to Action Section ---- */
+.cta {
+	background-color: #312C28;
+	width: 100%;
+	z-index: -2;
+}
+.cta_container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 86%;
+	max-width: 900px;
+	overflow: hidden;
+	position: relative;
+}
+.cta img {
+	width: 100%;
+}
+.cta_contact {
+	width: 32%;
+	margin-left: 6%;
+	float: left;
+}
+.cta_contacts {
+	width: 32%;
+	margin-right: 6%;
+	float: right;
+}
+.cta_coping {
+	height: 9vh;
+	max-height: 90px;
+	width: 100%;
+	-webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
+	clip-path: polygon(0 0, 100% 0, 50% 100%);
+	background-color: #312C28;
+}
+.cta-details_shim {
+	height: 9vh;
+	max-height: 90px;
+	width: 100%;
+	background-color: #486257;
+	position: absolute;
+	margin-top: -9vh;
+	z-index: -3;
+}
 
 /* ---- Details Section ---- */
 .details {
@@ -273,6 +316,15 @@ div.header_container img {
 				margin-top: -100%;
 				margin-left:37%;
 				}
+		.cta_contact {
+			margin-left: 0px;
+			width: 46%;
+		}
+		.cta_contacts {
+			margin-right: 0px;
+			padding-top: 5px;
+			width: 46%;
+		}
 		#details_center {
 				width: 75%;
 				margin-left: 17%;
@@ -301,13 +353,16 @@ div.header_container img {
 				padding-bottom:20%;
 				}	
 		.header_coping {
-				height: 10vw;
+				height: 8vw;
 				}	
+		.cta_coping {
+			height: 8vw;
+		}
 		.details_coping {
-				height: 10vw;
+				height: 8vw;
 				}
 		.testimonial_coping {
-				height: 10vw;
+				height: 8vw;
 				}
 }
 		
