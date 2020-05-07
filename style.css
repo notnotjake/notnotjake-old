@@ -13,8 +13,11 @@ body	{
 		z-index: 0;
 		}
 .header img {
-		width: 100%
-		}		
+		width: 100%;
+		}
+.header video {
+		width: 100%;
+}		
 #logo 	{
 		width: 35%;
 		min-width: 250px;
@@ -33,15 +36,26 @@ body	{
 		overflow: auto;
 		position: relative;
 		}
-div.header_container img {
+.header_container img {
 		border-radius: 7px;
 		}
+.header_container video {
+		border-radius: 7px;
+}
 
 #header_fun {
 		width: 27%;
 		margin-top: 5%;
 		float: left;
 		}
+#header_fun_video {
+		position: relative;
+		z-index: 0;
+}
+#header_fun_textdiv {
+		position: relative;
+		z-index: 100;
+}
 #header_fun_text {
 		width: 76%;
 		margin-left: 16%;
