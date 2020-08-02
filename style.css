@@ -16,7 +16,7 @@ body {
 	color: #F8622C;
 	}
 .header-container {
-	width: 90%;
+	width: 80%;
 	max-width: 750px;
 	margin-left: auto;
 	margin-right: auto;
@@ -61,11 +61,11 @@ nav a:hover {
 	color: #0E3A92;
 }
 /* Responsive Design */
-#content-desktop {
-	display:block;
-}
 #content-mobile {
 	display:none;
+}
+#content-desktop {
+	display:block;
 }
 
 @media (max-width: 700px) {
@@ -74,5 +74,8 @@ nav a:hover {
 	}
 	#content-mobile {
 		display:block;
+	}
+	.header {
+		height: 210px;
 	}
 }
