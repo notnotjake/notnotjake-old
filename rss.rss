@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<title>NotNot Jake</title>
+		<link>https://www.notnotjake.com/</link>
+		<description>I'm Jake: I share my thoughts on Apple and life.</description>
+		<language>en-us</language>
+		<copyright>Copyright 2020, Jacob Gooch</copyright>
+		<managingEditor>jake@notnotjake.com</managingEditor>
+		<webMaster>jake@notnotjake.com</webMaster>
+		<pubDate>03 Aug 2020 16:00:00 EST</pubDate>
+		<lastBuildDate>03 Aug 2020 16:00:00 EST</lastBuildDate>
+		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+		
+		<item>
+			<title>Thoughts on Apple Maps</title>
+	         <link>http://www.notnotjake.com/</link>
+	         <description>How do Americans get ready to work with Russians aboard the International Space Station? They take a crash course in culture, language and protocol at Russia's &lt;a href="http://howe.iki.rssi.ru/GCTC/gctc_e.htm"&gt;Star City&lt;/a&gt;.</description>
+	         <pubDate>03 Aug 2020 14:00:00 EST</pubDate>
+	         <guid>http://www.notnotjake.com/posts/</guid>
+		</item>
+	</channel>
+</rss>
