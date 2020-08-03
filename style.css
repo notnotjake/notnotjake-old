@@ -71,6 +71,26 @@ nav a:hover {
 #content-desktop {
 	display:block;
 }
+/*Blog Header*/
+#blog {
+	width: 80%;
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: .3em;
+	font-family: Courier;
+}
+#blog a {
+	color: #57514A;
+	text-decoration: none;
+}
+#blog a:hover {
+	color: black;
+	text-decoration: underline;
+}
+#blog a:visited {
+	color: #57514A;
+}
 
 /*Posts Section*/
 .posts {
@@ -78,22 +98,23 @@ nav a:hover {
 	max-width: 750px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 2.4em;
+	padding-top: 1.2em;
 	font-family: Avenir;
 	padding-bottom: 5em;
 }
 .posts h2 {
 	font-size: 1.4em;
 	margin-top: 1.7em;
-	margin-bottom: 1.2em;
+	margin-bottom: 0.9em;
 }
 .posts h3 {
 	font-weight: 500;
-	margin-bottom: 0em;
+	margin-bottom: -0.2em;
 	font-style: oblique;
 }
 .posts p {
 	line-height: 1.6em;
+	font-weight: 200;
 }
 .posts a:visited {
 	color: black;
@@ -124,13 +145,14 @@ nav a:hover {
 	font-size: 1.15em;
 }
 
-
 @media (max-width: 700px) {
 	#content-desktop {
 		display:none;
 	}
 	#content-mobile {
 		display:block;
+		overflow-x: scroll;
+		white-space: nowrap;
 	}
 	.masthead {
 		height: 210px;
