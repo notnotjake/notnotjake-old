@@ -64,13 +64,15 @@ nav a:visited {
 nav a:hover {
 	color: #0E3A92;
 }
-/* Responsive Design */
 #content-mobile {
 	display:none;
 }
 #content-desktop {
 	display:block;
 }
+
+
+
 /*Blog Header*/
 #blog {
 	width: 80%;
@@ -100,7 +102,7 @@ nav a:hover {
 	margin-right: auto;
 	padding-top: 1.2em;
 	font-family: Avenir;
-	padding-bottom: 5em;
+	margin-bottom: 5em;
 }
 .posts h2 {
 	font-size: 1.4em;
@@ -143,6 +145,44 @@ nav a:hover {
 #datetime {
 	font-family: Courier;
 	font-size: 1.15em;
+}
+
+.archives {
+	width: 80%;
+	height: 200px;
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #EEEADC;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	border-radius: 5px;
+	font-family: Courier;
+	font-weight: 100;
+	margin-bottom: 5em;
+}
+.archives h1 {
+	font-size: 1.5em;
+	line-height: 1.25;
+	margin-bottom: 0em
+}
+.archives h2 {
+	font-size: 1em;
+	margin-bottom: -0.1em;
+	font-weight: 100;
+}
+#archives-selected h2 {
+	font-weight: bold;
+}
+#archives-scope {
+	width: 30%;
+	float:left;
+}
+#archives-results {
+	width: 70%;
+	float: right;
+	color: #57514A;
 }
 
 @media (max-width: 700px) {
