@@ -64,10 +64,10 @@ nav a:visited {
 nav a:hover {
 	color: #0E3A92;
 }
-#content-mobile {
+.content-mobile {
 	display:none;
 }
-#content-desktop {
+.content-desktop {
 	display:block;
 }
 
@@ -186,10 +186,10 @@ nav a:hover {
 }
 
 @media (max-width: 700px) {
-	#content-desktop {
+	.content-desktop {
 		display:none;
 	}
-	#content-mobile {
+	.content-mobile {
 		display:block;
 		overflow-x: scroll;
 		white-space: nowrap;
