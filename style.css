@@ -147,6 +147,9 @@ nav a:hover {
 	font-size: 1.15em;
 }
 
+
+
+
 /* - - ARCHIVES SECTION - - */
 .archives {
 	width: 80%;
@@ -186,6 +189,9 @@ a#back-to-top:hover {
 	color: black;
 	text-decoration: underline;
 }
+
+
+
 .archives ul {
 	list-style-type: none;
 	padding-left: 0;
@@ -196,13 +202,13 @@ a#back-to-top:hover {
 	clear: both;
 	padding-bottom: 3.5em;
 }
+
 #archives-results {
 	float: right;
 	width: 70%;
 	clear: none;
 	color: #57514A;
 	display: inline-block;
-	line-height: 2em;
 	padding-bottom: 3.5em;
 }
 #archives-results ul {
@@ -210,16 +216,20 @@ a#back-to-top:hover {
 }
 .archives-results-title {
 	font-weight: bold;
+	text-decoration: underline;
 }
-
 .archives a {
 	text-decoration: none;
 	line-height: 1.7em;	
 	color: #57514A;
 }
-#archives-results a {
+a#archives-results {
 	color: #3F3B37;
 }
+
+
+
+
 
 @media (max-width: 700px) {
 	.content-desktop {
