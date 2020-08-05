@@ -21,8 +21,7 @@
 	</head>
 	
 	<body>
-		<div class="masthead">
-			<a name="top"></a>
+		<div class="masthead" id="top">
 			<div class="masthead-container">
 				<h1><a href="/"><span style="letter-spacing: -15px;">!</span>!JAKE</a></h1>
 				
@@ -38,17 +37,14 @@
 			</div>
 		</div>
 		
-		<div id="blog" class="content-desktop">
-			<p>↓ Recent Posts • <a href="#archives">Archives</a> • <a href="/feed">Add to RSS</a></p>
-		</div>
-		<div id="blog" class="content-mobile">
-			<p><a href="#archives">Archives</a> • <a href="/feed.rss">Add to RSS</a></p>
+		<div id="post-options">
+			<p><span class="mobile-hide">↓ Recent Posts • </span><a href="#archives">Archives</a> • <a href="/feed.rss">Add to RSS</a></p>
 		</div>
 		
 		<section class="posts">
 			<article id="2020-08-03-thoughts-on-apple-maps">
 				<header>
-					<a href="/posts/apple-maps">
+					<a href="/posts/2020-08-thoughts-on-apple-maps">
 						<h1>Thoughts on Apple Maps</h1>
 						<h2>A Delightful Piece of Software</h2>
 					</a>
@@ -74,17 +70,56 @@
 			</article>
 		</section>
 		
-		<section class="archives">
-			<h1><a name="archives">Archives</a></h1>
+		<section class="archives" id="archives">
+			<h1>Archives</h1>
+			<a href="#top" id="back-to-top">Back to Top</a>
+			
 			<div id="archives-scope">
-				<h2 id="archives-selected"><span style="font-weight:bold;">Last 30 Days (1)</span> ▶︎</h2>
-				<h2>July 2020 (0)</h2>
-				<h2>June 2020 (0)</h2>
+				<!-- \""+ name + "\" -->
+				<ul>
+					<li id="scope-select-000"><a href="javascript:void(0)" onclick="archivesScoping(000)">Recent Posts (1) ▶︎</a></li>
+					<li id="scope-select-202007"><a href="javascript:void(0)" onclick="archivesScoping(202007)">July 2020 (1) ▶︎</a></li>
+					<li id="scope-select-202006"><a href="javascript:void(0)" onclick="archivesScoping(202006)">June 2020 (1) ▶︎</a></li>
+					<li id="scope-select-202005"><a href="javascript:void(0)" onclick="archivesScoping(202005)">May 2020 (1) ▶︎</a></li>
+					<li id="scope-select-202004"><a href="javascript:void(0)" onclick="archivesScoping(202004)">April 2020 (3) ▶︎</a></li>
+				</ul>
 			</div>
+			
 			<div id="archives-results">
-				<p><span style="text-decoration:underline;">Thoughts on Apple Maps</span> Aug. 3rd, 2020</p>
+				<ul id="000">
+					<li>
+						<a href="#2020-08-03-thoughts-on-apple-maps"><span class="archives-results-title">Recent Posts 000</span> Aug. 3rd, 2020</a>
+					</li>
+				</ul>
+				<ul id="202007">
+					<li>
+						<a href="#2020-08-03-thoughts-on-apple-maps"><span class="archives-results-title">July Posts 202007</span> Jul. 3rd, 2020</a>
+					</li>
+				</ul>
+				<ul id="202006">
+					<li>
+						<a href="#2020-08-03-thoughts-on-apple-maps"><span class="archives-results-title">June Posts 202006</span> Jun. 3rd, 2020</a>
+					</li>
+				</ul>
+				<ul id="202005">
+					<li>
+						<a href="#2020-08-03-thoughts-on-apple-maps"><span class="archives-results-title">May Posts 202005</span> May. 3rd, 2020</a>
+					</li>
+				</ul>
+				<ul id="202004">
+					<li>
+						<a href="#2020-08-03-thoughts-on-apple-maps"><span class="archives-results-title">April Posts 202004</span> Apr. 3rd, 2020</a>
+					</li>
+					<li>
+						<a href="#2020-08-03-thoughts-on-apple-maps"><span class="archives-results-title">April Posts 202004</span> Apr. 3rd, 2020</a>
+					</li>
+					<li>
+						<a href="#2020-08-03-thoughts-on-apple-maps"><span class="archives-results-title">April Posts 202004</span> Apr. 3rd, 2020</a>
+					</li>
+				</ul>
 			</div>
-			<p><a href="#top">Back to Top</a></p>
 		</section>
+		
+		<script src="main.js"></script>
 	</body>
 </html>
