@@ -43,8 +43,8 @@
 			<p><span class="mobile-hide">↓ Recent Posts • </span><a href="#archives">Archives</a> • <a href="/feed">RSS</a></p>
 			
 			<div class="add-to-rss">
-				<p>https://www.notnotjake.com/feed</p>
-				<button onclick="rssCopy('https://www.notnotjake.com')">Copy</button>
+				<p style="user-select: all; -webkit-user-select: element;">https://www.notnotjake.com/feed</p>
+				<button onclick="rssCopy()">Copy</button>
 			</div>
 		</div>
 		
@@ -78,8 +78,10 @@
 		</section>
 		
 		<section class="archives" id="archives">
-			<h1>Archives</h1>
-			<a href="#top" id="back-to-top">Back to Top</a>
+			<div class="archives-heading-container">
+				<h1>Archives</h1>
+				<a href="#top" id="back-to-top">Back to Top</a>
+			</div>
 			
 			<div id="archives-scope">
 				<ul>

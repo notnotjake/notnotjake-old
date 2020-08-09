@@ -166,20 +166,24 @@ nav a:hover {
 	margin-bottom: 4em;
 	padding-bottom: 1.5em;
 }
+.archives-heading-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-bottom: 0.17em;
+	align-items: flex-end;
+	height: 3.5em;
+	margin-bottom: 1.2em;
+	padding-bottom: 0;
+}
 .archives h1 {
 	font-size: 1.5em;
-	padding-bottom: 0.17em;
-	float: left;
-	clear: none;
-	display: inline;
+	margin: 0;
+	padding: 0;
 }
 #back-to-top {
-	float: right;
-	text-align: right;
-	clear: none;
-	display: inline;
-	padding-bottom: 0.17em;
-	padding-top: 1.5em;
+	//text-align: right;
+	//padding-top: 1.5em;
 }
 a#back-to-top:link, a#back-to-top:visited {
 	color: #57514A;

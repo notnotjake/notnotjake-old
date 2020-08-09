@@ -20,3 +20,6 @@ function archivesScoping(scope) {
 		z.style.display = "none";
 	}
 }
+function rssCopy() {
+	navigator.clipboard.writeText("https://www.notnotjake.com/feed");
+}
