@@ -181,10 +181,6 @@ nav a:hover {
 	margin: 0;
 	padding: 0;
 }
-#back-to-top {
-	//text-align: right;
-	//padding-top: 1.5em;
-}
 a#back-to-top:link, a#back-to-top:visited {
 	color: #57514A;
 	text-decoration: none;
@@ -193,9 +189,6 @@ a#back-to-top:hover {
 	color: black;
 	text-decoration: underline;
 }
-
-
-
 .archives ul {
 	list-style-type: none;
 	padding-left: 0;
