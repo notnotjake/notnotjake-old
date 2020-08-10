@@ -1,5 +1,4 @@
 body {
-	background-color: #FAF8F0;
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -181,11 +180,11 @@ nav a:hover {
 	margin: 0;
 	padding: 0;
 }
-a#back-to-top:link, a#back-to-top:visited {
+a.all-the-way-up:link, a.all-the-way-up:visited {
 	color: #57514A;
 	text-decoration: none;
 }
-a#back-to-top:hover {
+a.all-the-way-up:hover {
 	color: black;
 	text-decoration: underline;
 }
@@ -242,5 +241,18 @@ a#archives-results {
 	}
 	.mobile-hide {
 		display: none;
+	}
+}
+
+/* - - COLOR THEMES - - */
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: #FAF8F0;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #201F1C;
 	}
 }

@@ -1,0 +1,3 @@
+# Thoughts on Apple Maps
+Greetings fellow travelers. I wanted to write about Apple Maps - the new Apple Maps.
+I rely pretty heavily on navigation apps, 1. because I just like knowing I'm on the fastest route especially when I don't know exactly where I'm going and 2. because I do food delivery (for one of the apps you've heard of) which is a job that I simply couldn't do without great navigation apps. For a long time that's been Google Maps. Google Maps has been reliable and the standard for a long, long time.
