@@ -20,6 +20,21 @@ function archivesScoping(scope) {
 		z.style.display = "none";
 	}
 }
+function rssHide() {
+	var f = document.getElementById("rssHide");
+	if (f.style.display != "inline") {
+		f.style.display = "inline";
+	} else {
+		f.style.display = "none";
+	}
+	var r = "rss-btn";
+	var r = document.getElementById(r);
+	if (r.style.fontWeight === "bold") {
+		r.style.fontWeight = "normal";
+	} else {
+		r.style.fontWeight = "bold";
+	}
+}
 function rssCopy() {
 	navigator.clipboard.writeText("https://www.notnotjake.com/feed");
 }
