@@ -40,9 +40,16 @@
 #byline {
 	margin-top:45px;
 }
-#nav{
+.nav{
 	text-align: right;
 	margin-top: 28px;
+}
+#nav-current {
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-bottom: 2px;
+	border-bottom-style: dotted;
+	border-width: .2em;
 }
 #contact {
 	text-align: right;
@@ -128,7 +135,7 @@
 		display: block;
 		height: 146px;
 	}
-	#nav {
+	.nav {
 		text-align: left;
 		margin-top: 15px;
 	}
@@ -168,16 +175,32 @@ body {
 #contact a:hover {
 	color: #AE4C29;
 } 
-#nav {
+.nav {
 	color: #0E3A92;
 }
-#nav a:link {
+.nav a:link {
 	color: #1E61E9;
 }
-#nav a:visited {
+.nav a:visited {
 	color: #1E61E9;
 }
-#nav a:hover {
+.nav a:hover {
+	color: #0E3A92;
+}
+#nav-current {
+	border-color: #F8622D;
+	color: #0E3A92;
+}
+#nav-current a {
+	color: ##F8622D;
+}
+#nav-current a:link {
+	color: #0E3A92;
+}
+#nav-current a:visited {
+	color: #0E3A92;
+}
+#nav-current a:hover {
 	color: #0E3A92;
 }
 
