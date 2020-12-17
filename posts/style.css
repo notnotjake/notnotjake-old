@@ -1,0 +1,44 @@
+/* - - LAYOUT:POSTS - - */
+.posts {
+	font-family: Avenir;
+	margin-top: 32px;
+	margin-bottom: 80px;
+}
+.posts header {
+	font-family: Courier;
+	padding-bottom: 11px;
+}
+.posts header a {
+	text-decoration: none;
+}
+.posts header h1 {
+	font-size: 1.85rem;
+}
+.posts header h2 {
+	font-size: 1.4rem;
+	margin-top: 3px;
+}
+#datetime {
+	margin-top: -2px;
+	margin-bottom: 16px;
+	font-size: 1.15rem;
+}
+.posts h2 {
+	font-size: 1.4rem;
+	margin-top: 24px;
+	margin-bottom: 11px;
+}
+.posts h3 {
+	font-weight: 500;
+	margin-bottom: 8px;
+	font-style: oblique;
+}
+.posts p {
+	line-height: 1.7rem;
+	font-weight: 200;
+	margin-bottom: 15px;
+}
+.posts a:hover {
+	text-decoration: underline;
+	text-decoration-color: black;
+}
