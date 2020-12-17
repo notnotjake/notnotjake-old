@@ -217,6 +217,7 @@
 	.masthead {
 		display: block;
 		height: 146px;
+		padding-top: 57px;
 	}
 	.nav {
 		text-align: left;
