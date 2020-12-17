@@ -91,10 +91,15 @@
 }
 .posts header h1 {
 	font-size: 1.85rem;
+	line-height: 1.8rem;
+	margin-bottom: 12px;
 }
 .posts header h2 {
 	font-size: 1.4rem;
 	margin-top: 3px;
+}
+.subhead {
+	font-size: 1.4rem;
 }
 #datetime {
 	margin-top: -2px;
@@ -307,6 +312,9 @@ body {
 .posts header h2 {
 	color: #57514A;
 }
+.subhead {
+	color: #57514A;
+}
 
 .archives {
 	background-color: #EEEADC;
@@ -411,6 +419,9 @@ body {
 		color: #FAF8F0;
 	}
 	.posts header h2 {
+		color: #B3AEA7;
+	}
+	.subhead {
 		color: #B3AEA7;
 	}
 	
