@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+    <channel>
+        <title>Not a Podcast</title>
+        <link>https://www.notnotjake.com</link>
+        <description>This is not a podcast and certainly isn't a test.</description>
+        <generator>Feeder 3 3.7.3(3316); Mac OS X Version 10.14.6 (Build 18G6020) http://reinventedsoftware.com/feeder/</generator>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <language>en</language>
+        <pubDate>Sat, 08 Aug 2020 09:07:01 -0400</pubDate>
+        <lastBuildDate>Sat, 08 Aug 2020 09:07:01 -0400</lastBuildDate>
+        <itunes:image href="https://www.notnotjake.com/Untitled-1500px.png"/>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:owner>
+            <itunes:name>Jake Gooch</itunes:name>
+            <itunes:email>jake@notnotjake.com</itunes:email>
+        </itunes:owner>
+        <itunes:block>no</itunes:block>
+        <itunes:category text="Technology"/>
+        <itunes:type>episodic</itunes:type>
+        <item>
+            <title>An Introduction</title>
+            <link>https://www.notnotjake.com</link>
+            <description><![CDATA[<h1>Podcasts</h1>
+<p>In this episode we look at whether or not this is a podcast</p>
+<p>It <em>clearly</em> is not.</p>
+<h2>Goodbye!</h2>
+]]></description>
+            <pubDate>Sat, 08 Aug 2020 09:07:00 -0400</pubDate>
+            <enclosure url="https://www.notnotjake.com/pod/ep_1.mp3" length="171553" type="audio/mpeg"/>
+            <guid isPermaLink="false">B57D0A45-9606-41B2-B12B-2899C2AEC97C</guid>
+            <itunes:author>NotNot Jake</itunes:author>
+            <itunes:summary>In this episode we look at why this is not a podcast. </itunes:summary>
+            <itunes:duration>10</itunes:duration>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+    </channel>
+</rss>
