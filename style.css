@@ -56,6 +56,15 @@
 	margin-top:52px;
 	line-height:30px;
 }
+
+div #logo {
+	margin-left: -10px;
+	padding-left: 10px;
+	padding-right: 7px;
+	height: 60px;
+	border-radius: 6px;
+}
+
 /* - - LAYOUT:MASTHEAD - ABOUT - - */
 .masthead-bg.about {
 	height: 135px;
@@ -241,7 +250,8 @@
 		height: 116px;
 	}
 }
-/* - - COLORS:BASE - - */
+
+/* - - COLORS:DEFAULT/LIGHT - - */
 body {
 	background-color: #FAF8F0;
 }
@@ -293,6 +303,11 @@ body {
 	color: #0E3A92;
 }
 
+#logo:hover {
+	background-image: url("/images/header-bg.png");
+	background-color: #FBF2E8;
+}
+
 .content-header a {
 	color: #57514A;
 }
@@ -341,10 +356,6 @@ body {
 	color: #EEEADC;
 }
 
-/* - - COLORS:LIGHT - - */
-@media (prefers-color-scheme: light) {
-
-}
 /* - - COLORS:DARK MODE - - */
 @media (prefers-color-scheme: dark) {
 	body {
@@ -397,6 +408,11 @@ body {
 	}
 	#nav-current a:hover {
 		color: #A8C1F3;
+	}
+	
+	#logo:hover {
+		background-image: url("/images/header-bg-dark.png");
+		background-color: #332F2D;
 	}
 	
 	.content-header p {
@@ -453,6 +469,3 @@ body {
 		color: #EEEADC;
 	}
 }
-
-
-
