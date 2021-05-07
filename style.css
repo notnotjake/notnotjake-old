@@ -485,6 +485,14 @@ body {
 		color: #98938C;
 	}
 	
+	.archives li a {
+		color: #A8C1F3;
+	}
+	
+	.posts a {
+		color: #A8C1F3;
+	}
+	
 	.archives-header-container h1 {
 		color: #FAF8F0;
 	}
@@ -500,6 +508,10 @@ body {
 	
 	.footer {
 		background-color: #141414;
+		color: #EEEADC;
+	}
+	.post-footer {
+		background-color: #564b41;
 		color: #EEEADC;
 	}
 }
