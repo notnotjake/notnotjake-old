@@ -92,6 +92,9 @@ div #logo {
 }
 
 /* - - LAYOUT:POSTS - - */
+article {
+	margin-bottom: 70px;
+}
 .posts {
 	font-family: Avenir;
 	margin-top: 32px;
