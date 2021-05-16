@@ -26,6 +26,50 @@
 	<meta property="twitter:title" content="NotNot Jake - Projects">
 	<meta property="twitter:description" content="This is what I'm working on, follow along!">
 	<meta property="twitter:image" content="https://www.notnotjake.com/images/sharing-sitewide.png">
+	
+	<style>
+		.advert-card {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			
+			background-color: #EEEADC;
+			border-style: dashed;
+			border-width: 2px;
+			border-left: none;
+			border-right: none;
+			border-color: #5f5e59;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			padding-left: 7px;
+			padding-right: 7px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			color: #515151;
+		}
+		.advert-content img {
+			height: 170px;
+		}
+		.advert-linkout {
+			//width: 20px;
+		}
+		.linkout {
+			font-size: 50px;
+			color: #000000;
+		}
+		a.linkout {
+			color: #054ab5;
+			//background-color: #e4e4e4;
+			padding-left: 5px;
+			padding-right: 5px;
+			border-radius: 3px;
+		}
+		a:hover.linkout {
+			color: #0b62e8;
+			background-color: color(srgb 0.863 0.886 0.925 / 0.577);
+		}
+	</style>
 </head>
 	<body>
 		<div class="wrapper">
@@ -40,6 +84,34 @@
 			</header>
 			<section class="aboutme">
 				<p>I am currently working on a Calendar app. I'm also working on several illustrated books.</p>
+				
+				<div class="advert-card">
+					<div class="advert-content">
+						<img src="/images/details_illustration.png"/>
+						<h3>Writing</h3>
+					</div>
+					<div class="advert-linkout">
+						<a href="/posts/" class="linkout">➽</a>
+					</div>
+				</div>
+				
+				<div class="advert-card">
+					<div class="advert-content">
+						<h3>Decentralized web</h3>
+					</div>
+					<div class="advert-linkout">
+						<a href="/posts/" class="linkout">➽</a>
+					</div>
+				</div>
+				
+				<div class="advert-card">
+					<div class="advert-content">
+						<h3>Illustrated Books</h3>
+					</div>
+					<div class="advert-linkout">
+						<a href="/posts/" class="linkout">➽</a>
+					</div>
+				</div>
 			</section>
 		</div>
 	</body>
